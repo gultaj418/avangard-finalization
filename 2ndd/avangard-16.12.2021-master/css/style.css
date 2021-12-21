@@ -558,7 +558,16 @@ img.small {
   color: var(--main-black);
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  transition: all ease-in 0.5s;
+
+  /* transition: scaleY, 2s ease-in 1s; */
   /* height: 100vh; */
+}
+
+.btn:hover {
+  box-shadow: 2px 2px var(--white-text);
+  background-color: var(--lightblue);
+  transform: scaleY(1.1);
 }
 
 .btnSecond {
